@@ -1,0 +1,22 @@
+/*
+For any written program, a basic requirement is to take the input and print the expected output.
+*/
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int a, b, c, sum;
+   
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    sum = a + b + c;
+    cout << sum;
+    return 0;
+}
